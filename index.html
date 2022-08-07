@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GetWell</title>
+</head>
+<body>
+   <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">GetWell</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#info" class="nav-link">Health Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#patients" class="nav-link">For Patients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#doctor" class="nav-link">Find Doctor</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+     <!-- Showcase -->
+
+     <section class="text-light bg-primary p-5 text-center text-sm-start">
+           <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Treat Yourself Right</h1>
+                    <p class="lead my-4">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam suscipit, voluptatum consectetur aut obcaecati architecto?
+                    </p>
+                    <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Make An Appointment</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/femaledoc.svg" alt="">
+            </div>
+           </div>
+     </section>
+
+     <!-- Boxes -->
+
+     <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-primary text-light p-5">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-hospital"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            Hospital
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde omnis amet ex, pariatur error.
+                        </p>
+                        <a href="#" class="btn btn-light">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-primary text-light p-5">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-person"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            Patient
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde omnis amet ex, pariatur error.
+                        </p>
+                        <a href="#" class="btn btn-light">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-primary text-light p-5">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-lungs"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            Health
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde omnis amet ex, pariatur error.
+                        </p>
+                        <a href="#" class="btn btn-light">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Info Section -->
+      
+     <section class="p-5" id="info">
+        <div class="container ">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/doc2.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md" p-5>
+                    <h2>Don't Put Yourself At Risk</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquid, ullam eum quas voluptate accusamus.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorum quos sapiente asperiores laborum. Exercitationem dolorem minima quidem, magni, magnam quae tempora quasi deserunt ex reprehenderit officiis nesciunt, suscipit ad!
+                    </p>
+                    <a href="#" class="btn bt-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Footer -->
+     <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy: 2022 GetWell</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+     </footer>
+
+     <!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this form and we will get back to you</p>
+          <form >
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                    First Name: 
+                </label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="mb-3">
+                <label for="last-name" class="col-form-label">
+                    Last Name: 
+                </label>
+                <input type="text" class="form-control" id="last-name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="col-form-label">
+                    Email: 
+                </label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="col-form-label">
+                    Phone: 
+                </label>
+                <input type="tel" class="form-control" id="phone">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+     
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
